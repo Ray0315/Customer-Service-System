@@ -11,10 +11,7 @@ export class Home2Component implements OnInit {
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.route.params.forEach((params: Params) => {
-      console.log(params['id']);
-      console.log(params['name']);
-    });
+
   }
 
 }

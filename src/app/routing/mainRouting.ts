@@ -1,3 +1,4 @@
+import { HomeDetailComponent } from './../home/home-detail/home-detail.component';
 import { SecondComponent } from '../second/second.component';
 import { HomeComponent } from '../home/home.component';
 import { Home2Component } from '../home/home2/home2.component';
@@ -14,7 +15,7 @@ export const mainRouting: Routes = [
             { path: '', component: Home1Component, pathMatch: 'full' },
             { path: 'home1', component: Home1Component },
             { path: 'home2', component: Home2Component },
-            { path: ':id/:name', component: Home2Component }            
+            { path: ':id/:name', component: HomeDetailComponent }            
         ]
     },
     { path: 'second', component: SecondComponent },
