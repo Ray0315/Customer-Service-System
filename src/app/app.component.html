@@ -1,13 +1,15 @@
-<h1>
-    {{title}}
-</h1>
-
-<ul>
-    <li>
-        <a [routerLink]="['/home']">Home</a>
-    </li>
-    <li>
-        <a [routerLink]="['/second']">Second</a>
-    </li>
-</ul>
-<router-outlet></router-outlet>
+<div class="grid-container">
+    <div class="grid-item item-track">
+        <div>{{title}}</div>
+    </div>
+    <div class="grid-item item-cell">
+        <div>
+            <app-navbar></app-navbar>
+        </div>
+    </div>
+    <div class="grid-item item-area">
+        <div>
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

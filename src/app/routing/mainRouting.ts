@@ -15,7 +15,7 @@ export const mainRouting: Routes = [
             { path: '', component: Home1Component, pathMatch: 'full' },
             { path: 'home1', component: Home1Component },
             { path: 'home2', component: Home2Component },
-            { path: ':id/:name', component: HomeDetailComponent }            
+            { path: ':id/:name', component: HomeDetailComponent }
         ]
     },
     { path: 'second', component: SecondComponent },
