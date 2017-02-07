@@ -1,4 +1,4 @@
-.grid-container {
+/*.grid-container {
   height: 100vh;
   display: grid;
   grid-template-columns: [line1] 100px [line2] 100px [line3] 0.1fr [line4] 0.9fr [end];
@@ -8,7 +8,6 @@
 .grid-item div {
   display: flex;
   color: #fff;
-  /*font-size: 2em;*/
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -31,4 +30,4 @@
   grid-column: line3 /end;
   grid-row: row-2-start / row-end;
 
-}
+}*/
